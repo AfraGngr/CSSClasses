@@ -1,0 +1,59 @@
+* {
+    font-family: 'Shalimar', cursive;
+    font-size: 24px;
+}
+
+.grid-box {
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius:20px;
+    transition: 0.3s;
+}
+
+.grid-box:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7)
+}
+
+
+.img-flw {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.description {
+    padding:20px;
+    text-align:justify;
+    font-size: 1.5rem;
+}
+
+#description-1{
+    color: #9E7777
+}
+
+#description-2{
+    color: #BFA2DB;
+}
+#description-3{
+    color: #8F4068
+}
+
+#description-4{
+    color: #F6C6EA
+}
+
+#description-5{
+    color: #3A6351
+}
+
+#description-6{
+    color: #CC7351
+}
+
+#description-7{
+    color: #A1CAE2
+}
+
+#description-8{
+    color: #FFABE1
+}
