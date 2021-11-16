@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.container {
+    border: 2px solid gray;
+    display: flex;
+   /* align-items: center; */
+}
+
+/* 
+1.flex-direction un defaultu rowdur 
+2.justify-content main axis üzerinde hizalar
+*/
+
+
+.flexbox-item {
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.item-1 {
+    flex-shrink: 4;
+    flex-grow: 1;
+    /* min-height: 100px; */
+    /* order: 3; */
+    /* align-self: flex-start; */
+}
+
+.item-2 {
+    flex-grow: 2;
+    /* min-height: 200px; */
+    /* order: 1; */
+    /* align-self: flex-end; */
+}
+
+.item-3 {
+    /* flex-grow: 1; */
+    /* min-height: 300px; */
+    /* align-self: flex-end; */
+    /* order: 2; */
+}
+
+
+.c1, .c2, .c3 , .c4 {
+    background-color: yellow;
+    /* width: 200px; */
+    padding:25px;
+    margin: 5px;
+}
+
+.c5, .c6, .c7 {
+    background-color: green;
+    /* width: 200px; */
+    padding: 25px;
+    margin:5px;
+}
+
+.c8 {
+    background-color: red;
+    /* width: 200px; */
+    padding: 25px;
+    margin:5px;
+}
+
+.container-1234 {
+    display: flex;
+    /* border: 5px solid black; */
+    /* justify-content: space-between; */
+    width: 50%;
+}
+
+.container-234 {
+    /* border: 5px solid pink; */
+    
+    width: 65%;
+}
+
+.container-34 {
+    /* border: 5px solid red ; */
+    display: flex;
+    justify-content: space-around;
+    /* width: 75%; */
+}
+
+.c8 {
+    /* border: 5px solid gray; */
+}
+
+.c1 {
+    width: 35%;
+}
+
+.c2 {
+    width: 100%;
+}
+
+.c3, .c4 {
+    width: 50%;
+}
+
+.container-567{
+    border: 3px solid black  ;
+    width: 50%;
+    display: flex;
+}
+
+.container-56 {
+    border: 2px solid red;
+    width:65%
+}
+
+.c7 {
+    width: 35%;
+}
+
+.c8 {
+    width: 50%
+}
+
+
+@media screen and (max-width: 600px){
+    .container-1234 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c1, .container-234 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .container-34{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c3, .c4 {
+        width:100%
+    }
+}
+
+
+/* .c1 {
+    flex-grow: 1
+}
+
+.c2 {
+    flex-grow: 2
+} */
